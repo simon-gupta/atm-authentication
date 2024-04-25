@@ -1,0 +1,57 @@
+html {
+    background-color:  #DCF2F1;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0 auto;
+    max-width: 80%;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 4%;
+    box-shadow: 3px 3px 10px 3px #B5C18E;
+}
+
+button {
+    background-color: #365486;
+    border: 2px solid #0F1035;
+    border-radius: 30px;
+    box-shadow: #0F1035 4px 4px 0 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-right: 30px;
+    
+    /* Add a little space between the button and other elements on mobile */
+    margin-bottom: 10px;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    #container {
+        height: auto; /* Adjust height as needed for content */
+        margin: 20px; /* Add margin to the sides */
+        padding: 20px; /* Add padding to the container */
+        border-radius: 0; /* Remove border radius */
+        box-shadow: none; /* Remove box shadow */
+    }
+    
+    button {
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 15px; /* Add bottom margin for spacing between buttons */
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR</title>
+  <link rel="stylesheet" href="QR.css">
+  <!-- Include Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth.js"></script>
+  <!-- Include Firebase configuration -->
+  <script src="firebase-config.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase-auth.js"></script>
+
+  
+</head>
+<body>
+    <div id="keyDisplay"></div>
+    <div class="container">
+        <header>
+            <h1>QR Code Generator</h1>
+        </header>
+        <div class="form">
+            <button id="ok">Generate QR Code</button>
+        </div>
+        <div class="qr-code">
+            <img src="" alt="qr-code">
+        </div>
+    </div>
+
+    <script src="qrscript.js"></script>
+</body>
+
+</html>

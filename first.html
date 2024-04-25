@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <div id="container">
+    <button id="button1" onclick="redirectToNewUserPage()">New User</button>
+    <button id="button2" onclick="redirectToLoginPage()">Login</button>
+    </div>
+    
+
+    <script>
+        function redirectToNewUserPage() {
+            // Redirect to the new user page
+            window.location.href = "index.html";
+        }
+
+        function redirectToLoginPage() {
+            // Redirect to the login page
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>
